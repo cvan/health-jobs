@@ -106,14 +106,20 @@ a:hover, a:hover .link {
   color: #0ae;
 }
 
+/*
 a:active, a:active .link {
   border-bottom-color: #fed;
   color: #f81;
 }
+*/
+
+a.block,
+a[href="#"] details {
+  color: #333;
+}
 
 a.block {
   border-bottom: 0;
-  color: #333;
   display: block;
 }
 
